@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(0, 204, 255);
+    font-family: 'Gill Sans';
+    font-size: 14px;
+    color: brown; 
+    line-height: 150%;
+}
+
+@media all and (min-width: 600px) {
+    h2 {
+        background-color: green;
+    }
+    ul {
+        background-color: orange;
+    }
+}
