@@ -1,0 +1,17 @@
+body {
+    margin: 20px;
+}
+.menulateral {
+    margin: 0;
+    background-color: black;
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.menu li:hover {
+    color: pink;
+}
