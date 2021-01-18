@@ -1,17 +1,31 @@
 body {
     margin: 20px;
 }
+
 .menulateral {
-    margin: 0;
-    background-color: black;
-    color: white;
-    list-style: none;
+    padding: 0px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 50px;
+    align-items: flex-start;
 }
-.menu li:hover {
-    color: pink;
+
+.menulateral p {
+    background-color: cornflowerblue;    
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menulateral a{
+    color: white;
+    text-decoration: none;
+}
+
+.menulateral a:hover {
+    color: red;
+}
+
+.menulateral a:visited {
+    color: green;
 }
