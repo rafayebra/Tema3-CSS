@@ -1,0 +1,47 @@
+body {
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info-container {
+    display: flex;
+}
+.contact-container {
+    margin-left: 10px;
+}
+
+#formContainer {
+    padding: 20px;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.label-form {
+    font-weight: bold;
+    float: left;
+    width: 100px;
+    padding-right: 30px;
+}
+
+.container-button {
+    text-align: center;
+}
+
+.send-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.send-button:hover {
+    cursor: pointer;
+    background-color:cornflowerblue;
+}
