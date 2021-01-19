@@ -1,5 +1,7 @@
 body {
     margin: 20px;
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container {
@@ -14,34 +16,44 @@ body {
     margin-left: 10px;
 }
 
-#formContainer {
-    padding: 20px;
-    border: black;
-    border-style: solid;
-    border-width: 1px;
+.title {
+    font-size: 18px;
+    margin: 4px;
 }
 
-.label-form {
-    font-weight: bold;
-    float: left;
-    width: 100px;
-    padding-right: 30px;
+.subtitle {
+    margin: 4px;
 }
 
-.container-button {
-    text-align: center;
+.button {
+    height: 40px;
+    border-radius: 10px;
 }
 
-.send-button {
-    background-color: blue;
+.book {
+    background-color: white;
+    border: 2px solid grey;
+}
+
+.budget {
+    background-color: grey;
     color: white;
-    border: none;
-    border-radius: 15px;
-    padding: 10px;
-    font-size: 14px;
+    border: none
 }
 
-.send-button:hover {
-    cursor: pointer;
-    background-color:cornflowerblue;
+.comments-container {
+    display: flex;
+    align-items: center;
+}
+
+.mark {
+    background: grey;
+    color: black;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.mark p {
+    margin: 0;
 }
